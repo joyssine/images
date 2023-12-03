@@ -1,0 +1,65 @@
+header {
+    background-color: gray;
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid white; /* Add a border at the bottom of the header */
+}
+
+.logo img {
+    padding: 3px;
+    height: auto;
+    width: 250px;
+    border-radius: 20%;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    color: black;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 100px; /* Adjust this value to control spacing */
+    font-size: 20%;
+    border-radius: 10px;
+    transition: border 0.2s;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold; 
+    font-size: 17px;
+    font-family: century;
+    transition: color 0.3s;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    color: white;
+    border: 2.5px solid white; 
+    border-radius: 10px;
+}
+
+body {
+    background-color: gray;
+}
+
+.picture {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 40%; /* Adjust the width of the picture */
+    object-fit: cover; /* Ensure the image covers the container */
+}
